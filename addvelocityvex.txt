@@ -1,0 +1,4 @@
+vector upvector = @N*ch("Length");
+vector center = getbbox_center(0);
+vector centervector = (@P - center)*(ch("Scale")-1);
+@v = upvector + centervector;
